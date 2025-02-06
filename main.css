@@ -156,7 +156,7 @@ section.about{
     
 }
 .project_cards .project_card{
-    background-color:#bebebe67;
+    background-color:gainsboro;
     border-radius: 5px;
     max-width: 435px;
     padding: 10px;
@@ -227,7 +227,7 @@ section.contact form textarea{
     width: 80%;
     padding:1.5em;
     font-size: 18px;
-    color:dimgray;
+    color: gainsboro;
     border-radius: 10px;
     outline: none;
     border: none;
@@ -254,4 +254,62 @@ footer.footer{
    background-color: var(--main_color);
    color: #fff;
    width: 100%;
+}
+/* ===== Projects section =====*/
+section.skills{
+    padding: 8% 12% 13%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    position: relative;
+
+}
+section.projects .heading{
+    position: absolute;
+    top: 20px;
+    font-size: 60px;
+    color: var(--main_color);
+}
+.project_cards{
+    display: flex;
+    gap:4rem;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.project_cards .project_card{
+    background-color:#bebebe67;
+    border-radius: 5px;
+    max-width: 435px;
+    padding: 10px;
+    transition: .3s;
+
+}
+.project_cards .project_card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+}
+.project_cards .project_card img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.project_cards .project_card h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    color: #0c0c0c;
+}
+
+.project_cards .project_card:hover h3 {
+    color: var(--main_color);
+}
+.project_cards .project_card p{
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 1.2;
 }
