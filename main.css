@@ -255,7 +255,7 @@ footer.footer{
    color: #fff;
    width: 100%;
 }
-/* ===== Projects section =====*/
+/* ===== skills section =====*/
 section.skills{
     padding: 8% 12% 13%;
     display: flex;
@@ -267,20 +267,20 @@ section.skills{
     position: relative;
 
 }
-section.projects .heading{
+section.skills .heading{
     position: absolute;
     top: 20px;
     font-size: 60px;
     color: var(--main_color);
 }
-.project_cards{
+.skills_cards{
     display: flex;
     gap:4rem;
     justify-content: center;
     margin-top: 20px;
 
 }
-.project_cards .project_card{
+.skills_cards .project_card{
     background-color:#bebebe67;
     border-radius: 5px;
     max-width: 435px;
@@ -288,16 +288,16 @@ section.projects .heading{
     transition: .3s;
 
 }
-.project_cards .project_card:hover{
+.skills_cards .project_card:hover{
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.19);
 }
-.project_cards .project_card img{
+.skills_cards .project_card img{
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
-.project_cards .project_card h3{
+.skills_cards .project_card h3{
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -305,10 +305,10 @@ section.projects .heading{
     color: #0c0c0c;
 }
 
-.project_cards .project_card:hover h3 {
+.skills_cards .project_card:hover h3 {
     color: var(--main_color);
 }
-.project_cards .project_card p{
+.skills_cards .project_card p{
     margin-bottom: 40px;
     font-size: 20px;
     line-height: 1.2;
